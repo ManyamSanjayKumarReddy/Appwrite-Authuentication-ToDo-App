@@ -2,7 +2,7 @@ import {Client, Account, Databases} from 'appwrite';
 
 const client = new Client();
 
-client.setEndpoint("http://todoauthapp.tws.org.in/v1").setProject("648edea1325eb287fe2e")
+client.setEndpoint("http://authtest-pearl.vercel.app/v1").setProject("648edea1325eb287fe2e")
 
 export const account = new Account(client)
 
