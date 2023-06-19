@@ -1,0 +1,43 @@
+{
+    "projectId": "648edea1325eb287fe2e",
+    "projectName": "appwrite-auth-todo",
+    "databases": [
+        {
+            "$id": "648f30f5e2b02da42ae6",
+            "name": "todos",
+            "$createdAt": "2023-06-18T16:29:41.928+00:00",
+            "$updatedAt": "2023-06-18T16:29:41.928+00:00"
+        }
+    ],
+    "collections": [
+        {
+            "$id": "648f30fc12fc85ee94f1",
+            "$permissions": [
+                "create(\"users\")",
+                "read(\"users\")",
+                "delete(\"users\")",
+                "read(\"any\")",
+                "create(\"user:b3d5428d-c612-48a8-8dec-53918d7a7ec6\")",
+                "read(\"user:b3d5428d-c612-48a8-8dec-53918d7a7ec6\")",
+                "update(\"user:b3d5428d-c612-48a8-8dec-53918d7a7ec6\")",
+                "delete(\"user:b3d5428d-c612-48a8-8dec-53918d7a7ec6\")"
+            ],
+            "databaseId": "648f30f5e2b02da42ae6",
+            "name": "todo",
+            "enabled": true,
+            "documentSecurity": true,
+            "attributes": [
+                {
+                    "key": "todo",
+                    "type": "string",
+                    "status": "available",
+                    "required": true,
+                    "array": false,
+                    "size": 256,
+                    "default": null
+                }
+            ],
+            "indexes": []
+        }
+    ]
+}
