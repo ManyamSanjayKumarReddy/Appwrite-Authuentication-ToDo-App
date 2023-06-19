@@ -41,7 +41,7 @@ function Profile() {
         <>
           <div className="min-h-min max-w-7xl mx-auto shadow-md flex justify-between text-right py-3 px-3 mt-2 rounded-md">
             <div>
-              <p className="text-xl">Hello {userDetails.name}</p>
+              <p className="text-xl">Hello, {userDetails.name} !</p>
             </div>
             <div>
               <button
@@ -59,10 +59,10 @@ function Profile() {
           <Todos />
         </>
       ) : (
-        <p className="mt-4">
+        <p className="mt-4 min-h-min max-w-7xl mx-auto shadow-md flex justify-center text-right py-3 px-6 rounded-md">
           Please Login To see Profile{" "}
-          <Link to="/">
-            <span className="bg-blue-300 p-2 cursor-pointer text-white rounded-md">
+          <Link to="/"> &nbsp;&nbsp;
+            <span className="bg-blue-300 p-2 cursor-pointer text-white rounded-md ">
               Login
             </span>
           </Link>
