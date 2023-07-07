@@ -110,7 +110,7 @@ function Login() {
                 </div>
                 
               </div>
-              <div className="text-center font-bold text-1xl">Dear Users this authentication will only work in Desktop's & Laptop's. We are Working on Mobile sessions as well.Stay Tuned </div>
+              <div className="text-center font-bold text-1xl">Dear Users, After Testing and fixing the Minor Updates We are now able to authenticate in Mobile Aswell. Thankyou</div>
               
             </div>
           </div>
